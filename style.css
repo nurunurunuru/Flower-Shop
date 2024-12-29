@@ -1,0 +1,315 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #fce4ec;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: black;
+    position: relative;
+    left: 70px; 
+    
+}
+.hero-content p {
+    margin: 1rem 0;
+    position: relative;
+    left: 70px; 
+}
+.hero-content .btn {
+    padding: 0.7rem 1.5rem;
+    background: #d81b60;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    left: 70px; 
+}
+.hero-image img {
+    width: 400px;
+    position: relative;
+    right: 100px; 
+    
+}
+
+/* Featured Flowers Section */
+.featured-flowers {
+    text-align: center;
+    padding: 2rem;
+}
+.flowers-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+.flower-card {
+    
+    padding: 1rem;
+   
+}
+.flower-card-2 {
+    
+    padding: 1rem;
+   
+}
+.flower-card-3 {
+    
+    padding: 1rem;
+   
+}
+.flower-card img {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flower-card img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    filter: brightness(1.1); /* Brightens image on hover */
+}
+.flower-card-2 img {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flower-card-2 img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    filter: brightness(1.1); /* Brightens image on hover */
+}
+
+.flower-card-3 img {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flower-card-3 img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    filter: brightness(1.1); /* Brightens image on hover */
+}
+
+/* Hot Deal Section */
+.hot-deal {
+     
+    padding: 2rem;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal .gt {
+    font-family: Lato;
+    font-weight: 1000;
+    position: relative;
+    left: 160px;
+    top: 160px;
+    font-size:xx-large;
+    
+}
+.hot-deal .gt-2 {
+    position: relative;
+    right: 220px;
+    top: 160px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: small;
+    
+}
+.hot-deal .Img{
+    position: relative;
+    left: 700px; 
+    width: 230px;
+    height: 300px;
+}
+.hot-deal .btn {
+    padding: 0.7rem 1.5rem;
+    background: #c2185b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+    
+}
+
+/* Instagram Section */
+.instagram {
+    padding: 2rem;
+    text-align: center;
+}
+.instagram-container {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem; 
+    margin-top: 2rem;
+    
+    
+}
+
+.instagram-container img {
+    width: calc(25% - 1rem); 
+    height: 356px; 
+    border-radius: 10px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.instagram-container img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    filter: brightness(1.1); /* Brightens image on hover */
+}
+
+
+
+
+/* Newsletter Section */
+.newsletter {
+    background:url('./Flower Asset/Rectangle\ 9.png') no-repeat center/cover;
+    text-align: center;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 10px;
+    
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.newsletter input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+.newsletter .btn {
+    background: #ad1457;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgb(17, 16, 16);
+    color: #fff;
+    
+}
+footer h1{
+    margin-top: 60px;
+}
+footer .p{
+    margin-top: 20px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.9);
+}
+footer .pi{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+.delivery {
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 8px;
+    margin: 50px 100px; 
+    padding: 80px 50px; 
+}
+
+.delivery div {
+    text-align: center; 
+}
+
+.delivery img {
+    width: 100px; 
+    margin-bottom: 20px; 
+    position: relative;
+    left: 50px;
+    padding: 10px;
+}
+
+.delivery p {
+    font-size: 14px; 
+    margin: 0; 
+    position: relative;
+    top: 60px;
+    right: 90px;
+}
+.delivery .s{
+    position: relative;
+    right: 130px;
+}
+.delivery .a{
+    position: relative;
+    right: 130px;
+}
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content, .hero-image {
+        flex: 1 1 100%;
+    }
+    .flowers-container, .instagram-container {
+        flex-direction: column;
+    }
+    .flower-card, .flower-card-2, .flower-card-3, .instagram-container img {
+        flex: 1 1 100%;
+    }
+    .hot-deal .Img {
+        width: 80%;
+    }
+    .delivery {
+        flex-direction: column;
+    }
+} */
+
+
+
+
